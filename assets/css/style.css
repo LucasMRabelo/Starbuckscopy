@@ -22,6 +22,10 @@ header .line {
   width: 64px;
   height: 64px;
 }
+.header--right {
+    display: flex;
+    align-items: center;
+}
 .header--search form {
     display: flex;
 }
@@ -36,9 +40,18 @@ header .line {
 .header--search button {
   border: 0;
   background: transparent;
-  margin-left: -26px;
+  margin-left: -28px;
 }
 .header--search button img {
   width: 16px;
   height: 16px;
+  cursor: pointer;
+}
+.header--menu {
+    margin-left: 60px;
+    cursor: pointer;
+}
+.header--menu img {
+    width: 24px;
+    height: 24px;
 }
