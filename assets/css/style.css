@@ -80,3 +80,19 @@ header .line {
   border-radius: 50%;
   margin-right: 40px;
 }
+.area1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.area1--content {
+  height: 300px;
+}
+.area1--img1 {
+  background-color: #117050;
+  height: 100px;
+}
+.area1--img2 {
+  background-color: red;
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
