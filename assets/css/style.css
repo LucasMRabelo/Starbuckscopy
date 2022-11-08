@@ -157,3 +157,23 @@ header .line {
   background-size: cover;
   background-position: center;
 }
+
+.area3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.area3--content {
+  padding: 200px 80px;
+  background-image: url('../imagens/bg2.jpg');
+  background-size: cover;
+  background-position: left;
+}
+.area3--text {
+  margin-bottom: 30px;
+  line-height: 30px;
+}
+.area3--img1 {
+  background-image: url('../imagens/f5.jpg');
+  background-size: cover;
+  background-position: center;
+}
